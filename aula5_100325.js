@@ -49,3 +49,37 @@ contador += 5; //contador=contador+5
 contador -= 2; //contador=contador-2
 contador *= 3; //contador=contador*3
 console.log("Valor final do contador:", contador);
+
+let nota = 75;
+if(nota >= 60) {
+    console.log("Aprovado");
+} else if (nota >= 40) {
+    console.log("Recuperação");
+} else {
+    console.log("Reprovado")
+}
+
+let diaDaSemana = 3;
+switch (diaDaSemana) {
+    case 1:
+        console.log("Domingo");
+        break;
+    case 2:
+        console.log("Segunda");
+        break;
+    case 3:
+        console.log("Terça");
+        break;
+    case 4:
+        console.log("Quarta");
+        break;
+    case 5:
+        console.log("Quinta");
+        break;
+    case 6:
+        console.log("Sexta");
+        break;
+    case 7:
+        console.log("Sábado");
+        break;
+}
