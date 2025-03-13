@@ -4,8 +4,8 @@
 let preco = 150.0;
 let desconto = 20;
 
-let preco_final = preco - desconto;
-console.log(preco_final);
+let precoFinal = preco - (preco * desconto / 100);
+console.log("Preço final após desconto: ", precoFinal);
 
 //
 
@@ -16,7 +16,7 @@ let peso = 70;
 let altura = 1.75;
 
 let imc = peso / (altura ** 2);
-console.log(imc);
+console.log("Seu IMC é: ", imc);
 
 //
 
@@ -35,13 +35,13 @@ console.log(pessoa_elegivel_concurso);
 //4. Classificação de Níveis de Acesso Declare uma variável nivel_acesso com um valor entre 1 e 3. Use estruturas condicionais para imprimir:
 //"Acesso total" se o nível for 3. "Acesso parcial" se o nível for 2. "Acesso restrito" se o nível for 1.
 
-let nivel_acesso = 2; //prompt("Digite o seu nível de acesso: ");
+let nivel_acesso = 3; //parseInt(prompt("Digite o seu nível de acesso: "));
 
-if (nivel_acesso == 3) {
+if (nivel_acesso === 3) {
     console.log("Acesso total");
-} else if  (nivel_acesso == 2) {
+} else if  (nivel_acesso === 2) {
     console.log("Acesso parcial");
-} else if (nivel_acesso == 1) {
+} else if (nivel_acesso === 1) {
     console.log("Acesso restrito");
 } else {
     console.log("Digite o código válido!!!");
@@ -56,4 +56,39 @@ if (nivel_acesso == 3) {
 let celsius = 50; //float(prompt("Digite a temperatura em graus Celsius: "));
 
 let F = (celsius * 9/5) + 32
-console.log('A Temperatura em Celsius', + celsius + 'º convertida para Fahrenheit é')
+console.log('A Temperatura em Celsius', + celsius + 'º convertida para Fahrenheit é:', F)
+
+//
+
+//6. Verificação de Números Pares e Ímpares Declare uma variável numero com um valor inteiro.
+//Use estruturas condicionais para verificar se o número é par ou ímpar e imprima o resultado.
+
+num = 5; //int(input("Digite o número para saber se é par ou ímpar: "))
+
+if (num % 2 == 0) {
+    console.log("O número {num} é Par!")
+}
+else {
+    console.log("O número {num} é Ímpar!")
+}
+
+//
+
+//7. Cálculo de Frete com Base no Peso Declare uma variável peso com o peso de um pacote em kg. Calcule o frete com base nas seguintes regras:
+//Peso até 5 kg: R$  20.00
+//Peso acima de 10 kg: R$ 30.00
+//Imprima o valor do frete.
+    
+peso = 15; //int(input("Digite o peso do Frete: "))
+let frete;
+
+if (peso <= 5) {
+    frete = 20.00;
+}
+else if  (peso <=10 ) {
+    frete = 20.00
+}
+else
+    frete = 30.00
+
+console.log('O valor do Frete é: ', frete)
