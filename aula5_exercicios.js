@@ -7,6 +7,11 @@ let desconto = 20;
 let precoFinal = preco - (preco * desconto / 100);
 console.log("Preço final após desconto: ", precoFinal);
 
+let numero1 = parseInt(prompt("Digite um número: "));
+for (let i = numero1; i >= 0; i--) {
+    console.log(i);
+}
+
 //
 
 //2.Cálculo de IMC (Índice de Massa Corporal) Declare duas variáveis, peso e altura,

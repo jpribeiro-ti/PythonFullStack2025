@@ -13,6 +13,12 @@ desconto = float(input("Digite o valor do desconto: "))
 preco_final = preco - (preco * desconto / 100)
 print("Preço final após desconto: ", preco_final)
 
+# comando FOR #
+numero = int(input("Digite um número: "))
+for i in range(numero, -1, -1):
+    print(i)
+
+
 #####------------######
 
 #2.Cálculo de IMC (Índice de Massa Corporal) Declare duas variáveis, peso e altura,
