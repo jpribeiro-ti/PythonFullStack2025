@@ -44,7 +44,8 @@ while i <= 10:
 
 # 4. Números Pares com FOR:
 # Peça ao usuário um número e mostre todos os números pares de 1 até ele.
-    
+
+
 
 
 # 5. Fatorial com WHILE:
