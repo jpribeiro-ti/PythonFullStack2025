@@ -1,0 +1,12 @@
+Documentação
+
+--> Classe Aluno
+A classe Aluno serve como um modelo que encapsula todas as informações relevantes sobre um aluno. Através de seu construtor, ela solicita e armazena dados essenciais como nome e matrícula. O método adicionarNota permite que o sistema registre as notas do aluno de maneira facilmente gerenciável. Com isso, a classe fornece uma base sólida para a implementação de funcionalidades adicionais, como cálculo de médias, matrícula em disciplinas e geração de boletins.
+
+ --> gerarRelatorio()
+O método gerarRelatorio fornece um resumo abrangente da situação da escola, incluindo as informações sobre alunos, professores e disciplinas. Ele é útil para supervisores ou administradores da escola, permitindo uma rápida visualização do estado atual da instituição e facilitando a tomada de decisões informadas. A formatação clara e as mensagens personalizadas garantem que as informações sejam de fácil compreensão.
+
+Matricula criar sozinha
+listar o nome das matérias
+adicionar o professor e o aluno criado a matéria
+gerar boleto, aparecer a lista com o nome dos alunos criados para escolher
